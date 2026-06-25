@@ -1,0 +1,14 @@
+# Desktop (headless)
+node dropdownvalidator2_complete.js -file urls.csv
+
+# Desktop (headed)
+node dropdownvalidator2_complete.js -file urls.csv --headed
+
+# Mobile (headless, iPhone 12)
+node dropdownvalidator2_complete.js -file urls.csv -mobile
+
+# Mobile (headless, Pixel 5)
+node dropdownvalidator2_complete.js -file urls.csv -mobile "Pixel 5"
+
+# Mobile (headed, Pixel 5) – window resized to see mobile view
+node dropdownvalidator2_complete.js -file urls.csv -mobile "Pixel 5" --headed
